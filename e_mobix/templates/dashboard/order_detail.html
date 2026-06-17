@@ -1,57 +1,139 @@
 {% extends "base.html" %}
+{% load static %}
 {% block content %}
-<div class="container py-4">
-  <div class="d-flex justify-content-between align-items-center mb-3">
-    <h3>Order #{{ order.id }}</h3>
-    <span class="badge bg-secondary">{{ order.get_status_display }}</span>
-  </div>
+<link href="{% static 'css/dashboard.css' %}" rel="stylesheet">
 
-  <div class="row">
-    <div class="col-md-6">
-      <h5>Customer</h5>
-      <p class="mb-1">{{ order.full_name|default:order.user.username }}</p>
-      <p class="mb-1">{{ order.phone }}</p>
-      <p class="mb-1">{{ order.address }}</p>
-      <p class="text-muted">Ordered: {{ order.created_at }}</p>
+<div class="dashboard-shell">
+
+    <!-- ── Sidebar ──────────────────────────────────────────── -->
+    <div id="sidebar">
+
+        <div class="sidebar-brand">
+            <button id="sidebarToggle" onclick="document.getElementById('sidebar').classList.toggle('collapsed')">
+                <ion-icon name="menu-outline" style="font-size:18px;"></ion-icon>
+            </button>
+            <div class="brand-icon ms-1">E</div>
+            <span class="brand-text ms-1">E_Mobix Admin</span>
+        </div>
+
+        <div class="sidebar-nav">
+            <a class="nav-item-custom" href="{% url 'dashboard' %}">
+                <span class="nav-icon"><ion-icon name="grid-outline"></ion-icon></span>
+                <span class="nav-label">Dashboard</span>
+            </a>
+            <a class="nav-item-custom" href="{% url 'add_product' %}">
+                <span class="nav-icon"><ion-icon name="add-circle-outline"></ion-icon></span>
+                <span class="nav-label">Add Product</span>
+            </a>
+            <a class="nav-item-custom active" href="{% url 'dashboard_orders' %}">
+                <span class="nav-icon"><ion-icon name="receipt-outline"></ion-icon></span>
+                <span class="nav-label">Orders</span>
+            </a>
+            <a class="nav-item-custom" href="{% url 'dashboard_products' %}">
+                <span class="nav-icon"><ion-icon name="phone-portrait-outline"></ion-icon></span>
+                <span class="nav-label">Products</span>
+            </a>
+            <a class="nav-item-custom" href="{% url 'dashboard_customers' %}">
+                <span class="nav-icon"><ion-icon name="people-outline"></ion-icon></span>
+                <span class="nav-label">Customers</span>
+            </a>
+            <a class="nav-item-custom" href="{% url 'dashboard_low_stock' %}">
+                <span class="nav-icon danger"><ion-icon name="warning-outline"></ion-icon></span>
+                <span class="nav-label">Low Stock</span>
+            </a>
+        </div>
+
+        <div class="sidebar-footer">
+            <a class="nav-item-custom" href="{% url 'logout' %}">
+                <span class="nav-icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                <span class="nav-label">Logout</span>
+            </a>
+        </div>
+
     </div>
-    <div class="col-md-6">
-      <h5>Payment</h5>
-      <p class="mb-1">Amount: <strong>${{ order.total }}</strong></p>
-      {% if order.payment_proof %}
-      <p class="mb-1">Payment proof: <a href="{{ order.payment_proof.url }}" target="_blank">View</a></p>
-      {% endif %}
-      <p class="mb-1">Notified: {{ order.notified }}</p>
+
+    <!-- ── Main Content ──────────────────────────────────────── -->
+    <div id="main">
+
+        <div class="page-header d-flex justify-content-between align-items-start">
+            <div>
+                <p class="page-title">Order #{{ order.id }}</p>
+                <p class="page-sub">{{ order.created_at }}</p>
+            </div>
+            <span class="badge-status badge-pending">{{ order.get_status_display }}</span>
+        </div>
+
+        <!-- Customer & Payment -->
+        <div class="row g-3 mb-4">
+            <div class="col-md-6">
+                <div class="detail-card">
+                    <div class="detail-label mb-3">Customer Info</div>
+                    <div class="detail-value mb-2">{{ order.full_name|default:order.user.username }}</div>
+                    <div class="detail-value mb-2" style="color:var(--text-secondary);">{{ order.phone }}</div>
+                    <div class="detail-value" style="color:var(--text-secondary);">{{ order.address }}</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="detail-card">
+                    <div class="detail-label mb-3">Payment Info</div>
+                    <div class="d-flex justify-content-between mb-2">
+                        <span class="detail-label">Amount</span>
+                        <span class="detail-value" style="color:var(--green);">${{ order.total }}</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-2">
+                        <span class="detail-label">Notified</span>
+                        <span class="detail-value">{{ order.notified }}</span>
+                    </div>
+                    {% if order.payment_proof %}
+                    <div class="d-flex justify-content-between">
+                        <span class="detail-label">Proof</span>
+                        <a href="{{ order.payment_proof.url }}" target="_blank" style="color:var(--accent); font-size:13px;">View</a>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        <!-- Order Items -->
+        <p class="section-title mb-3">Order Items</p>
+        <div class="table-wrap mb-4">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Variant</th>
+                        <th>Price</th>
+                        <th>Qty</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for it in items %}
+                    <tr>
+                        <td>{{ it.product.name }}</td>
+                        <td>{% if it.variant %}{{ it.variant }}{% else %}—{% endif %}</td>
+                        <td>${{ it.price|floatformat:2 }}</td>
+                        <td>{{ it.qty }}</td>
+                        <td>${{ it.subtotal|floatformat:2 }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Total -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <a href="{% url 'dashboard_orders' %}" class="btn-ghost">
+                <ion-icon name="arrow-back-outline"></ion-icon>
+                Back to Orders
+            </a>
+            <div class="detail-card" style="padding:14px 24px;">
+                <span class="detail-label me-3">Order Total</span>
+                <span style="font-size:20px; font-weight:700; color:var(--green);">${{ order.total }}</span>
+            </div>
+        </div>
+
     </div>
-  </div>
-
-  <hr />
-
-  <h5>Items</h5>
-  <div class="table-responsive">
-    <table class="table">
-      <thead>
-        <tr><th>Product</th><th>Variant</th><th>Price</th><th>Qty</th><th>Subtotal</th></tr>
-      </thead>
-      <tbody>
-        {% for it in items %}
-        <tr>
-          <td>{{ it.product.name }}</td>
-          <td>{% if it.variant %}{{ it.variant }}{% else %}-{% endif %}</td>
-          <td>${{ it.price|floatformat:2 }}</td>
-          <td>{{ it.qty }}</td>
-          <td>${{ it.subtotal|floatformat:2 }}</td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-  </div>
-
-  <div class="d-flex justify-content-end mt-3">
-    <h4>Total: <strong class="text-success">${{ order.total }}</strong></h4>
-  </div>
-
-  <div class="mt-4">
-    <a href="{% url 'dashboard_orders' %}" class="btn btn-outline-secondary">Back to Orders</a>
-  </div>
 </div>
+
 {% endblock %}

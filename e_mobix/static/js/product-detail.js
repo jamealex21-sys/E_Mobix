@@ -33,17 +33,26 @@ function updateVariant() {
     const selectedStorage = storageSelect.value;
     const match = variants.find(v => v.color === selectedColor && v.storage === selectedStorage);
 
-    if (match) {
+    if (match && productImage) {
         variantInput.value = match.id;
 
-        // Update image with fade effect
-        if (match.image && productImage) {
-            productImage.style.opacity = '0';
-            setTimeout(() => {
-                productImage.src = match.image;
+        // Smooth slide + fade transition
+        productImage.style.transition = 'opacity 0.2s ease, transform 0.2s ease';
+        productImage.style.opacity = '0';
+        productImage.style.transform = 'scale(0.95) translateY(10px)';
+
+        setTimeout(() => {
+            productImage.src = match.image;
+            productImage.onload = () => {
                 productImage.style.opacity = '1';
+                productImage.style.transform = 'scale(1) translateY(0)';
+            };
+            // Fallback in case onload doesn't fire
+            setTimeout(() => {
+                productImage.style.opacity = '1';
+                productImage.style.transform = 'scale(1) translateY(0)';
             }, 300);
-        }
+        }, 200);
     }
 }
 

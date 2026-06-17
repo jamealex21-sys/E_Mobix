@@ -61,8 +61,8 @@
                 <img src="{{ product.image.url }}" class="thumb" alt="{{ product.name }}">
                 {% endif %}
                 <div>
-                    <p class="page-title">{{ product.name }}</p>
-                    <p class="page-sub">Manage Variants</p>
+                    <p class="page-title">Edit Product</p>
+                    <p class="page-sub">{{ product.name }}</p>
                 </div>
             </div>
             <a href="{% url 'dashboard_products' %}" class="btn-ghost">
@@ -81,96 +81,72 @@
         {% endfor %}
         {% endif %}
 
-        <!-- Add Variant Form -->
-        <p class="section-title mb-3">Add New Variant</p>
-        <div class="form-card mb-4">
+        <div class="form-card" style="max-width:720px;">
             <form method="POST" enctype="multipart/form-data">
                 {% csrf_token %}
-                <div class="row g-3 align-items-end">
-                    <div class="col-md-3">
-                        <label class="form-label">Color</label>
+
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Product Name</label>
                         <input
                             type="text"
-                            name="color"
+                            name="name"
                             class="form-control"
-                            placeholder="e.g. Midnight Black"
+                            value="{{ product.name }}"
                             required>
                     </div>
                     <div class="col-md-3">
-                        <label class="form-label">Storage</label>
+                        <label class="form-label">Price ($)</label>
                         <input
-                            type="text"
-                            name="storage"
+                            type="number"
+                            name="price"
                             class="form-control"
-                            placeholder="e.g. 256GB"
+                            value="{{ product.price }}"
+                            step="0.01"
                             required>
                     </div>
-                    <div class="col-md-4">
-                        <label class="form-label">Variant Image</label>
+                    <div class="col-md-3">
+                        <label class="form-label">Stock</label>
+                        <input
+                            type="number"
+                            name="stock"
+                            class="form-control"
+                            value="{{ product.stock }}"
+                            required>
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Description</label>
+                        <textarea
+                            name="description"
+                            class="form-control"
+                            rows="3">{{ product.description }}</textarea>
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Product Image</label>
+                        {% if product.image %}
+                        <div class="mb-2 d-flex align-items-center gap-3">
+                            <img
+                                src="{{ product.image.url }}"
+                                style="height:72px; object-fit:contain; border-radius:8px; border:1px solid var(--border); background:var(--bg-base); padding:6px;">
+                            <span class="page-sub">Current image — upload new to replace</span>
+                        </div>
+                        {% endif %}
                         <input
                             type="file"
                             name="image"
                             class="form-control"
                             accept="image/*">
                     </div>
-                    <div class="col-md-2">
-                        <button type="submit" class="btn-primary-custom w-100">
-                            <ion-icon name="add-outline"></ion-icon>
-                            Add
+                    <div class="col-12 d-flex gap-2 mt-1">
+                        <button type="submit" class="btn-primary-custom">
+                            <ion-icon name="save-outline"></ion-icon>
+                            Save Changes
                         </button>
+                        <a href="{% url 'dashboard_products' %}" class="btn-ghost">Cancel</a>
                     </div>
                 </div>
-            </form>
-        </div>
 
-        <!-- Variants Table -->
-        <p class="section-title mb-3">Existing Variants</p>
-        <div class="table-wrap">
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Image</th>
-                        <th>Color</th>
-                        <th>Storage</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for v in variants %}
-                    <tr>
-                        <td>{{ forloop.counter }}</td>
-                        <td>
-                            {% if v.image %}
-                            <img src="{{ v.image.url }}" class="thumb" alt="{{ v.color }}">
-                            {% else %}
-                            <div class="thumb-placeholder"><ion-icon name="image-outline"></ion-icon></div>
-                            {% endif %}
-                        </td>
-                        <td>{{ v.color }}</td>
-                        <td>{{ v.storage }}</td>
-                        <td>
-                            <form action="{% url 'delete_variant' v.id %}" method="POST" onsubmit="return confirm('Delete this variant?')">
-                                {% csrf_token %}
-                                <button type="submit" class="btn-danger">
-                                    <ion-icon name="trash-outline"></ion-icon>
-                                    Delete
-                                </button>
-                            </form>
-                        </td>
-                    </tr>
-                    {% empty %}
-                    <tr>
-                        <td colspan="5">
-                            <div class="empty-state">
-                                <ion-icon name="list-outline"></ion-icon>
-                                <p>No variants yet — add one above</p>
-                            </div>
-                        </td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
+            </form>
         </div>
 
     </div>

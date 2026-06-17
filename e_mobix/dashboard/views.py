@@ -281,3 +281,21 @@ def delete_product(request, product_id):
         product.delete()
         messages.success(request, f'Product deleted successfully!')
     return redirect('dashboard_products')
+
+@staff_required
+def edit_product(request, product_id):
+    product = get_object_or_404(Product, id=product_id)
+    if request.method == 'POST':
+        product.name = request.POST.get('name')
+        product.price = request.POST.get('price')
+        product.description = request.POST.get('description')
+        product.stock = request.POST.get('stock')
+        if request.FILES.get('image'):
+            product.image = request.FILES.get('image')
+        product.save()
+        messages.success(request, f'{product.name} updated successfully!')
+        return redirect('dashboard_products')
+    return render(request, 'dashboard/edit_product.html', {
+        'product': product,
+        'active_tab': 'products'
+    })
