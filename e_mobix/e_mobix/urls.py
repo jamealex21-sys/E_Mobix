@@ -5,17 +5,22 @@ from django.conf.urls.static import static
 from django.contrib.auth.models import User
 from django.http import HttpResponse
 
-from accounts import views as accounts_views
 from cart import views as cart_views
+from accounts import views as accounts_views
 from orders import views as orders_views
 from products.views import debug_products
 
 
 def debug_users(request):
+    users = User.objects.all()
+
+    if not users.exists():
+        return HttpResponse("NO USERS FOUND")
+
     return HttpResponse(
         "<br>".join(
             f"{u.username} | staff={u.is_staff} | super={u.is_superuser}"
-            for u in User.objects.all()
+            for u in users
         )
     )
 
