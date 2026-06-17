@@ -23,11 +23,10 @@ from cart.views import add_to_cart, cart_view
 from dashboard import views
 from dashboard.views import dashboard
 from accounts import views as accounts_views
+from e_mobix.products.views import debug_products
 from products.views import home
 from cart import views as cart_views
-# pong
 from orders import views as orders_views
-# pong
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -36,13 +35,14 @@ urlpatterns = [
     path('cart/', cart_views.cart_view, name='cart_view'),
     path('accounts/', include('accounts.urls')),
     path('dashboard/', include('dashboard.urls')),
-    # pong
     path('checkout/', orders_views.checkout, name='checkout'),
     path('cart/remove/<str:cart_key>/', cart_views.remove_from_cart, name='remove_from_cart'),
-    # pong
     path('login/', accounts_views.login_view, name='login'),
     path('register/', accounts_views.register_view, name='register'),
     path('logout/', accounts_views.logout_view, name='logout'),
+    path('debug/', debug_products, name='debug_products'),
+    path('debug-products/', debug_products),
+
 ]
 
 if settings.DEBUG:
