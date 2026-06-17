@@ -23,8 +23,8 @@ from cart.views import add_to_cart, cart_view
 from dashboard import views
 from dashboard.views import dashboard
 from accounts import views as accounts_views
-from e_mobix.products.views import debug_products
 from products.views import home
+from products.views import debug_products
 from cart import views as cart_views
 from orders import views as orders_views
 

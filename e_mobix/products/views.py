@@ -1,6 +1,11 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
 from .models import Product, ProductVariant, CartItem
+from django.http import HttpResponse
+
+
+def debug_products(request):
+    return HttpResponse(f"Products: {Product.objects.count()}")
 
 def home(request):
     # ប្រើ prefetch_related ដើម្បីឱ្យទំព័រ home ដើរលឿនជាងមុន
