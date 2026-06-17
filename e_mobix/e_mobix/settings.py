@@ -22,14 +22,21 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get(
-    'DJANGO_SECRET_KEY',
-    'django-insecure-a8-@9fxjo6ba2w6)c&&=osp_h@nn5a)n&x43j_4_!_m462+(ab',
+    "DJANGO_SECRET_KEY",
+    "django-insecure-dev-key"
 )
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DJANGO_DEBUG', '').lower() != 'false'
+DEBUG = os.environ.get(
+    "DJANGO_DEBUG",
+    "True"
+) == "True"
 
-ALLOWED_HOSTS = os.environ.get('DJANGO_ALLOWED_HOSTS', 'localhost 127.0.0.1').split()
+ALLOWED_HOSTS = ['*']
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://e-mobix.onrender.com",
+]
 
 
 # Application definition
