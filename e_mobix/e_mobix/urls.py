@@ -12,16 +12,21 @@ from products.views import debug_products
 
 
 def debug_users(request):
-    users = User.objects.all()
+    # Create an admin user automatically if the database is empty
+    if User.objects.count() == 0:
+        User.objects.create_superuser(
+            username="admin",
+            email="admin@example.com",
+            password="admin123"
+        )
 
-    if not users.exists():
-        return HttpResponse("NO USERS FOUND")
+    users = User.objects.all()
 
     return HttpResponse(
         "<br>".join(
             f"{u.username} | staff={u.is_staff} | super={u.is_superuser}"
             for u in users
-        )
+        ) or "NO USERS FOUND"
     )
 
 
