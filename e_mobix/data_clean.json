@@ -1,0 +1,3756 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-05-20T14:22:36.562Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "iphone 17 promax",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-05-20T14:25:53.718Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "iphone 17 promax",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-05-20T14:26:22.591Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "iphone 16",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-05-20T14:26:44.742Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "iphone 17 promax",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-05-20T15:56:44.160Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "iphone 17 promax",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-05-20T15:56:47.457Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "iphone 16",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-05-20T15:56:50.817Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "iphone 17 promax",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-05-20T15:56:53.925Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "iphone 17 promax",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-05-20T15:59:39.466Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "iphone 11 pro max",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-05-20T16:00:57.213Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "iphone 17 promax",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-05-21T00:51:20.998Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "iphone 12 pro max",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-05-21T01:27:19.187Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "black - 128GB",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-05-21T01:41:49.252Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "black - 128GB",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-06-01T13:18:59.983Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "iphone 11",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-06-01T13:20:02.555Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "iphone 12",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-06-01T13:22:31.833Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "iphone 13",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-06-01T13:30:05.305Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "iphone 13",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-06-01T13:30:10.857Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "iphone 12",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-06-01T13:30:15.114Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "iphone 11",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-06-01T13:30:18.144Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "iphone 12 pro max",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-06-01T13:30:22.799Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "iphone 17 promax",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-06-01T13:30:25.977Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "iphone 11 pro max",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-06-01T13:34:15.490Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "iphone 17 pro max",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-06-01T13:35:18.014Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "iphone 17",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-06-01T13:35:59.833Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "iphone 17 air",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-06-01T13:43:11.673Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "iphone 16 pro max",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-06-01T13:43:56.522Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "iphone 16 pro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-06-01T13:46:32.821Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "iphone 16",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-06-01T13:51:00.723Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "17",
+    "object_repr": "iphone 15 pro max",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-06-01T13:51:50.622Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "iphone 15 pro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-06-01T13:52:35.269Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "19",
+    "object_repr": "iphone 15",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-06-01T13:53:58.025Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "iphone 15 pro",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2026-06-01T13:54:05.648Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "19",
+    "object_repr": "iphone 15",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2026-06-01T14:00:41.409Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "20",
+    "object_repr": "iphone 14 pro max",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2026-06-01T14:01:25.952Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "21",
+    "object_repr": "iphone 14 pro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2026-06-01T14:02:10.663Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "22",
+    "object_repr": "iphone 14",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 3,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 3,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 3,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 3,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 2,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 2,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 2,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 2,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 7,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 7,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 7,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 7,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add order item",
+    "content_type": 9,
+    "codename": "add_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change order item",
+    "content_type": 9,
+    "codename": "change_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete order item",
+    "content_type": 9,
+    "codename": "delete_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view order item",
+    "content_type": 9,
+    "codename": "view_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add order",
+    "content_type": 8,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change order",
+    "content_type": 8,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete order",
+    "content_type": 8,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view order",
+    "content_type": 8,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add cart item",
+    "content_type": 10,
+    "codename": "add_cartitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change cart item",
+    "content_type": 10,
+    "codename": "change_cartitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete cart item",
+    "content_type": 10,
+    "codename": "delete_cartitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view cart item",
+    "content_type": 10,
+    "codename": "view_cartitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add product variant",
+    "content_type": 11,
+    "codename": "add_productvariant"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change product variant",
+    "content_type": 11,
+    "codename": "change_productvariant"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete product variant",
+    "content_type": 11,
+    "codename": "delete_productvariant"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view product variant",
+    "content_type": 11,
+    "codename": "view_productvariant"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add profile",
+    "content_type": 12,
+    "codename": "add_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change profile",
+    "content_type": 12,
+    "codename": "change_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete profile",
+    "content_type": 12,
+    "codename": "delete_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view profile",
+    "content_type": 12,
+    "codename": "view_profile"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$AIo0w5ZTzpazAynkiTRR3B$9CXH32PKlAent8ryOjOL7wvzY1VEm2GLngHpzhvyZts=",
+    "last_login": "2026-06-19T02:03:07.062Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "sal123@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-20T14:00:20.349Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$unFLxwmcZ6gBNz6m1hbSa1$3qPDTOv1CYT7Qsey8kCLtBHfqLPhmNClUD1XpyZ7xjQ=",
+    "last_login": "2026-06-02T02:43:22.435Z",
+    "is_superuser": false,
+    "username": "dom168",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-20T17:07:49.526Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$avyIZfh9uNR081w4Nl8z62$kAdTnEaSEsEd+bAeV0GRJ9wWtX12SJ26RDbevP1gQr8=",
+    "last_login": "2026-05-25T12:28:43.287Z",
+    "is_superuser": false,
+    "username": "Sapong",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-25T03:10:39.120Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$ApTYe13r6gEA0rufxo15tT$vXYIGpnYxCDTZYPsAWxwJ0iuLKiNk7St9SkYjU3FseQ=",
+    "last_login": "2026-06-18T14:11:14.561Z",
+    "is_superuser": true,
+    "username": "sapong",
+    "first_name": "",
+    "last_name": "",
+    "email": "pp@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-25T12:54:33.713Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$N1mks7m9WYCQB1LIok7erE$/2/ZK8nkPqhEoLcUWPrAXG3ncFdZdZQKJmjPCgA4XNs=",
+    "last_login": "2026-06-03T14:36:30.149Z",
+    "is_superuser": false,
+    "username": "SY VISAL",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-03T01:12:02.361Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$BF3X7dC2TZjqvZfOlrRA8S$n+X552tF2aOOdooDgm+6LSU7WrWN/jiVO5XpmqX1+W0=",
+    "last_login": "2026-06-03T14:16:26.865Z",
+    "is_superuser": false,
+    "username": "Devit",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-03T13:22:28.937Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$9Joo4052t4ye1x3UEcnpmE$/KT2cDyIhY+t50YaoRnfbzuTKTNjGPR2ythrXxbK0iI=",
+    "last_login": "2026-06-07T16:02:33.897Z",
+    "is_superuser": false,
+    "username": "Dom",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-07T16:02:31.765Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$mrXWn8yDkKdHLIP6gl7mUl$0y50kWudXTiBvLSqWM9tdlVrS+TKIhSZ7ywk4iKKLPU=",
+    "last_login": "2026-06-15T16:57:32.420Z",
+    "is_superuser": true,
+    "username": "Oudom",
+    "first_name": "",
+    "last_name": "",
+    "email": "dom34468@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-06-07T16:12:30.515Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$4cPcffw7UJUePBiLJONrZq$OgDk6Wo73kCqjXPV1Ce+onC7aJp1Dncm1bdQQdafLI8=",
+    "last_login": "2026-06-18T15:04:39.253Z",
+    "is_superuser": false,
+    "username": "vit",
+    "first_name": "vit ",
+    "last_name": "smos",
+    "email": "aa@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-18T15:04:38.380Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$QyDGu6Q8pcKH4k43uBbv4f$6/SMWwJu8Ja5ghv0KpMeQ2K2ZHmF8EqSGyqas76UEv0=",
+    "last_login": "2026-06-18T15:23:00.696Z",
+    "is_superuser": false,
+    "username": "testuser",
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "john.doe@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-06-18T15:22:59.968Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "products",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "orders",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "orders",
+    "model": "orderitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "products",
+    "model": "cartitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "products",
+    "model": "productvariant"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "accounts",
+    "model": "profile"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "81463qgcl9acewl4lcv5b9623vttkmvt",
+  "fields": {
+    "session_data": ".eJxVjDEOgzAMAP_iuYpqCAlh7M4bkO3YhbYCicBU9e8VEkO73p3uDQPt2zjsRddhytABwuWXMclT50PkB833xckyb-vE7kjcaYvrl6yv29n-DUYqI3SQvJC1NQtl1JCuYk0MUalqfUwcjGqP3Hi2LJYIjc1IpcKIihRygs8XENA5WA:1wUoYH:_jtvGSzk2DMb2bWYVAjMdUyAbCoaY5Ir6_nEA-zozBs",
+    "expire_date": "2026-06-17T16:34:45.463Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cdfjkcfsrwk2z0yyiv413ipr2aete9zn",
+  "fields": {
+    "session_data": ".eJxVjLsOwjAMAP_FM4qcJq1DR_Z-Q2THCS2gVOpjQvw7qtQB1rvTvSHyvo1xX_MSJ4UeLFx-mXB65noIfXC9zybNdVsmMUdiTruaYdb8up3t32DkdYQeiqWGCrcFkTJeC6XOKncpW2ydSijCap14JLQUGsGQMZAPktQVch4-X-guN8Y:1wZpvm:wLyKPbxH5ljgGHV1HPAzUEtzVzf4SmJaH0RhAvQci38",
+    "expire_date": "2026-07-01T13:03:46.980Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cnkkti8d1jo9ulhsf3ebykw79ip20csd",
+  "fields": {
+    "session_data": ".eJxVjLsOgzAMAP_FM4pwyENk7N5vQI5tGtoKJB4T4t8REkO73p1uh462tXTbonM3CCRwUP2yTPzR8RLypvE1GZ7GdR6yuRJz28U8J9Hv427_BoWWAgl6JmcVVSO2rQ2ReuToa8_cWMxZSHwI2gdsHAs7V2e2iE1gyYjRI1TANK-Q9uM4ATkqO2A:1wRVC0:C8pxdwhfncln8ua-g2jJOd8NvHbTtUR7uYGAElQf8NI",
+    "expire_date": "2026-06-08T13:18:04.170Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "d2gwiu5jjiznwy3lsx12u1vvdfrl2hbh",
+  "fields": {
+    "session_data": ".eJxVjDEOgzAMAP_iGUU1hIRk7N43INuJC20FEoEJ8fcKiYX17nQ7CC0rxB0cxLqCFiIeFfS0rUO_lbz0Y4IICDfGJN88nSJ9aHrPRuZpXUY2Z2IuW8xrTvn3vNrbYKAyQIRghbRrWChhduEh2nrnM9Wd9YGdUmORW8uaRAOhsiplqdFjRnIpwPEH10M-mg:1wS34C:LqnYcAxZSmTjh6GOrc84AqZ651xr7iMgPx8QA2QMQcw",
+    "expire_date": "2026-06-10T01:28:16.504Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dld54u99kmzouzx34ji3jt9hwilujf1p",
+  "fields": {
+    "session_data": ".eJxVjEkKwkAQAP_SZxnSk1lIjt59Q-gtJiozkOUk_l0COei1qqg3DLRv07CvtgyzQg8BLr-MSZ5WDqEPKvfqpJZtmdkdiTvt6m5V7XU927_BROsEPYxCwRuaZew6nzKNKDk2UaT1yKykMSUbE7ZBVEJoWDxim0QZMUeEzxf5iTgU:1wRmEE:pBb5Af6_FxPfSBSPsDZoLwuMKQb1hgd_3cDOmKp-g14",
+    "expire_date": "2026-06-09T07:29:30.222Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "drhd9ht91lm9hv80nbqn6wd38a5a7fvr",
+  "fields": {
+    "session_data": ".eJxVjLsOwjAMAP_FM4rcWA1JR3a-IXJshxZQK_UxVfw7qtQB1rvT7ZB5W_u8LTbnQaGDCJdfVlheNh5Cnzw-JifTuM5DcUfiTru4-6T2vp3t36DnpYcOaitK1aglpITC3hJxIPNNIFVGxGusUTR6jNIELhaSJ_Qtp5KqEHy-54A3yg:1wWG7F:utshLdX66LHfxhD5lnNQFVcvukyUsHQQ_lO0RdvGN20",
+    "expire_date": "2026-06-21T16:12:49.765Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gffkafxhdxbnvl1ckih47sb767ldlf7w",
+  "fields": {
+    "session_data": ".eJxVjLsOwjAMAP_FM4qcJq1DR_Z-Q2THCS2gVOpjQvw7qtQB1rvTvSHyvo1xX_MSJ4UeLFx-mXB65noIfXC9zybNdVsmMUdiTruaYdb8up3t32DkdYQeiqWGCrcFkTJeC6XOKncpW2ydSijCap14JLQUGsGQMZAPktQVch4-X-guN8Y:1wZqMR:ZwVs96NjhSwgcPeUQkpZ4kCAj8zH2X3AzlsO_9UZyQo",
+    "expire_date": "2026-07-01T13:31:19.843Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gp9o14j51obgyfr45agsdomstok3fpdn",
+  "fields": {
+    "session_data": ".eJxVjEEOgyAQAP-yZ0PACrty7L1vMAtLq20jDeLJ-PfGxEN7nZnMBgOvdRzWJZVhEvBgofllgeMrzYeQJ8-PrGKea5mCOhJ12kXdsqT39Wz_BiMvI3jgLpG-GMOWSAStQRfQYo9MCbUO0scQIkmykgg1Odcmc3fUkcMuEEMDkUsFv8GnZFlj9W0L3uz7F2qaPzM:1wUaVk:XoVO2sw3UnNmwYWJcEoTRnwjgBhmLqDV4imgyrDzwlk",
+    "expire_date": "2026-06-17T01:35:12.671Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hfgj8xrrn963h1h00h6bzkq0ckxzfpq4",
+  "fields": {
+    "session_data": ".eJxVjLsOgzAMAP_FM4pwyENk7N5vQI5tGtoKJB4T4t8REkO73p1uh462tXTbonM3CCRwUP2yTPzR8RLypvE1GZ7GdR6yuRJz28U8J9Hv427_BoWWAgl6JmcVVSO2rQ2ReuToa8_cWMxZSHwI2gdsHAs7V2e2iE1gyYjRI1TANK-Q9uM4ATkqO2A:1wUOO4:0pAB6iSlv16zvLEbjUoe7ekON3BqtJaUuRTGSyLANkc",
+    "expire_date": "2026-06-16T12:38:28.358Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hruhkh1q5uk0mezpd0b94nh6408h6kb6",
+  "fields": {
+    "session_data": ".eJxVjLsOgzAMAP_FM4oaB8hj7M43IMeYQlsFKYQuiH-vkBja9e50O_S0lanfVsn9PEAAD9Uvi8QvSacYnpQei-IllTxHdSbqsqvqlkHe96v9G0y0ThDAWo8sSIxI0qIfndPRaTJs6tYJungjax2ahmUU13jU2Eq0UYTFNggVMOUCYYcP5ZlSCTUaCPo4vri3P64:1waFBg:d8jidjbyBvnNcfXIRChNg5qkLDs0bgrwFzKxpNIR9bQ",
+    "expire_date": "2026-07-02T16:01:52.684Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "krkyr34jc6uiiubfmailfjvwq34dkwgk",
+  "fields": {
+    "session_data": ".eJxVjEEOgyAQAP-yZ0O6FkE49t43mGVhq22DCWIvxr83Jh7a68xkNhhoreOwLqkMUwQPCM0vC8SvlA8Rn5Qfs-I51zIFdSTqtIu6zzG9b2f7NxhpGcGD00zSXwNTxGTchaWzxiZqe21dMEJXjaHTQSKLI5QgQolbtJiQTHTQAFOp4Df4UJkoV99iBx73_QsNQEEa:1wUczp:hd-QpvaOnGaEoNl03EyalCjw3Z8saiVZ8E-w6tSRDIQ",
+    "expire_date": "2026-06-17T04:14:25.115Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "prz02p0r37h4kugk4zk282do09f0al3l",
+  "fields": {
+    "session_data": ".eJxVjDEOgzAMAP_iGUUOAZwydu8bkB0nDW0FUoAJ8fcKiaFd7063w8DbmodtiWUYFXqwUP0y4fCO0yn0xdNzNmGe1jKKORNz2cU8Zo2f-9X-DTIvGXpIlmpK3CZEinhLFDqr3IVosXUqPgmrddIgoSVfC_qInhovQV0i10AFgcsK_X4cXyTDOxI:1waOaF:DBngedf2hvhjmbDtRNv8oYd9ULqcbjAAC3pyQXWcPeE",
+    "expire_date": "2026-07-03T02:03:51.142Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qz0mkvoyo9ncpcr74extmj7ymo5mmmh8",
+  "fields": {
+    "session_data": ".eJxVjEsOwiAUAO_C2pBHKT-X7nsG8oCHVA0kpV0Z725IutDtzGTezOOxF3902vya2JUJYJdfGDA-qQ6THljvjcdW920NfCT8tJ0vLdHrdrZ_g4K9jG8yECdnUMcAWSGJOE8kjMoGggZQWVtrHTlweSbp0GaZnQGQyqpEiX2-_Vs3ug:1waEa4:BsPH0zYSgN_oASTaiQM0q_pet13_1tZW-u9Yd_7DAd4",
+    "expire_date": "2026-07-02T15:23:00.701Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xrqf361a8lesse63uux53fj8plol9y4u",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP-yZ0NWWAv06N03NAssUjWQlPZk_Ltp0oNeZybzhom3tUxbl2WaE4zg4PTLAsen1F2kB9d7U7HVdZmD2hN12K5uLcnrerR_g8K9wAgo2hL7JOjJBB3EJ9GCFskPmF22A1G0kbMzF2188KIj85lcEh1RED5f5f04CQ:1wZAcu:DEMpS3BdjppxzJ7vZgZA0OPGvDCKDIVrPA8_xvKdmhQ",
+    "expire_date": "2026-06-29T16:57:32.464Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 1,
+  "fields": {
+    "user": 10,
+    "phone": ""
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 2,
+  "fields": {
+    "user": 9,
+    "phone": ""
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 3,
+  "fields": {
+    "user": 1,
+    "phone": ""
+  }
+},
+{
+  "model": "products.product",
+  "pk": 11,
+  "fields": {
+    "name": "iphone 17 pro max",
+    "price": "1100.00",
+    "description": "The iPhone 17 Pro Max is a high-end smartphone that combines cutting-edge technology with user-friendly features. Here are some of the key details about the device:",
+    "image": "products/Apple-iPhone-17-Pro-Max-removebg-preview.png",
+    "stock": 23,
+    "created_at": "2026-06-01T13:34:15.489Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 12,
+  "fields": {
+    "name": "iphone 17",
+    "price": "980.00",
+    "description": "The iPhone 17 is designed with contoured edges, thinner borders, and durable materials like Ceramic Shield 2 on the front. It features a 6.3-inch",
+    "image": "products/17-removebg-preview.png",
+    "stock": 11,
+    "created_at": "2026-06-01T13:35:18.012Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "name": "IPhone 17 Air",
+    "price": "900.00",
+    "description": "The iPhone 17 Air is Apple's thinnest and lightest iPhone yet, featuring a 6.5-inch Super Retina XDR display with ProMotion up to 120Hz.",
+    "image": "products/iPhone_Air.png",
+    "stock": 8,
+    "created_at": "2026-06-01T13:35:59.832Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "name": "iphone 16 pro max",
+    "price": "1000.00",
+    "description": "The iPhone 16 Pro Max is equipped with a 6.9-inch Super Retina XDR display, an A18 Pro chip,",
+    "image": "products/16_pm-removebg-preview.png",
+    "stock": 10,
+    "created_at": "2026-06-01T13:43:11.671Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 15,
+  "fields": {
+    "name": "iphone 16 pro",
+    "price": "920.00",
+    "description": "The iPhone 16 Pro is powered by the A18 Pro chip, offering enhanced performance and efficiency.",
+    "image": "products/16_pro-removebg-preview.png",
+    "stock": 10,
+    "created_at": "2026-06-01T13:43:56.520Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 16,
+  "fields": {
+    "name": "iphone 16",
+    "price": "890.00",
+    "description": "The iPhone 16 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle.",
+    "image": "products/iphone16.png",
+    "stock": 10,
+    "created_at": "2026-06-01T13:46:32.819Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 17,
+  "fields": {
+    "name": "iphone 15 pro max",
+    "price": "950.00",
+    "description": "The iPhone 15 Pro Max is a flagship smartphone that combines a titanium design with a 6.7-inch OLED display,",
+    "image": "products/15pm-removebg-preview.png",
+    "stock": 23,
+    "created_at": "2026-06-01T13:51:00.722Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 18,
+  "fields": {
+    "name": "iphone 15 pro",
+    "price": "820.00",
+    "description": "The iPhone 15 Pro is a flagship smartphone that was unveiled on September 12, 2023, and made available to the public on September 22, 2023.",
+    "image": "products/15_pro-removebg-preview.png",
+    "stock": 9,
+    "created_at": "2026-06-01T13:51:50.620Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 19,
+  "fields": {
+    "name": "iphone 15",
+    "price": "700.00",
+    "description": "The iPhone 15 is a smartphone developed and marketed by Apple, succeeding the iPhone 14 and iPhone 14 Plus. It features a 6.1-inch OLED",
+    "image": "products/15-removebg-preview_1.png",
+    "stock": 19,
+    "created_at": "2026-06-01T13:52:35.268Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 20,
+  "fields": {
+    "name": "iphone 14 pro max",
+    "price": "750.00",
+    "description": "The iPhone 14 Pro Max stands out with its 6.7-inch Super Retina XDR display, which features Always-On technology for continuous visibility. The device also includes a Dynamic Island,",
+    "image": "products/14_pm-removebg-preview.png",
+    "stock": 10,
+    "created_at": "2026-06-01T14:00:41.407Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 21,
+  "fields": {
+    "name": "iphone 14 pro",
+    "price": "680.00",
+    "description": "The iPhone 14 Pro is a flagship smartphone that combines cutting-edge technology with user-friendly features.",
+    "image": "products/14ppro-removebg-preview.png",
+    "stock": 10,
+    "created_at": "2026-06-01T14:01:25.950Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 22,
+  "fields": {
+    "name": "iphone 14",
+    "price": "630.00",
+    "description": "The iPhone 14 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle.",
+    "image": "products/14-removebg-preview.png",
+    "stock": 16,
+    "created_at": "2026-06-01T14:02:10.663Z"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 270,
+  "fields": {
+    "product": 22,
+    "color": "Midnight",
+    "storage": "128GB",
+    "image": "products/variants/file.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 271,
+  "fields": {
+    "product": 22,
+    "color": "Midnight",
+    "storage": "256GB",
+    "image": "products/variants/file_0VDYBgy.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 272,
+  "fields": {
+    "product": 22,
+    "color": "Midnight",
+    "storage": "512GB",
+    "image": "products/variants/file_GOlcnI5.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 273,
+  "fields": {
+    "product": 22,
+    "color": "Starlight",
+    "storage": "128GB",
+    "image": "products/variants/file_1.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 274,
+  "fields": {
+    "product": 22,
+    "color": "Starlight",
+    "storage": "256GB",
+    "image": "products/variants/file_1_lCBnANm.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 275,
+  "fields": {
+    "product": 22,
+    "color": "Starlight",
+    "storage": "512GB",
+    "image": "products/variants/file_1_td10bk1.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 276,
+  "fields": {
+    "product": 22,
+    "color": "Product Red",
+    "storage": "128GB",
+    "image": "products/variants/l_10230573_001.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 277,
+  "fields": {
+    "product": 22,
+    "color": "Product Red",
+    "storage": "256GB",
+    "image": "products/variants/l_10230573_001_5qQx3Q3.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 278,
+  "fields": {
+    "product": 22,
+    "color": "Product Red",
+    "storage": "512GB",
+    "image": "products/variants/l_10230573_001_YWcvvym.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 279,
+  "fields": {
+    "product": 22,
+    "color": "Blue",
+    "storage": "128GB",
+    "image": "products/variants/Apple_event220907_800x600g-620x466.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 280,
+  "fields": {
+    "product": 22,
+    "color": "Blue",
+    "storage": "256GB",
+    "image": "products/variants/Apple_event220907_800x600g-620x466_xqwXD0w.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 281,
+  "fields": {
+    "product": 22,
+    "color": "Blue",
+    "storage": "512GB",
+    "image": "products/variants/Apple_event220907_800x600g-620x466_2NjyHq3.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 282,
+  "fields": {
+    "product": 22,
+    "color": "Purple",
+    "storage": "128GB",
+    "image": "products/variants/dNoCn4ymujYSpcU8VKCiWo-1200-80.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 283,
+  "fields": {
+    "product": 22,
+    "color": "Purple",
+    "storage": "256GB",
+    "image": "products/variants/dNoCn4ymujYSpcU8VKCiWo-1200-80_xA0d3rA.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 284,
+  "fields": {
+    "product": 22,
+    "color": "Purple",
+    "storage": "512GB",
+    "image": "products/variants/dNoCn4ymujYSpcU8VKCiWo-1200-80_tRQdb1R.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 285,
+  "fields": {
+    "product": 22,
+    "color": "Yellow",
+    "storage": "128GB",
+    "image": "products/variants/Yellow-Apple-iPhone-14-and-iPhone-14-Plus-1-473x630.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 286,
+  "fields": {
+    "product": 22,
+    "color": "Yellow",
+    "storage": "256GB",
+    "image": "products/variants/Yellow-Apple-iPhone-14-and-iPhone-14-Plus-1-473x630_FLpHqLO.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 287,
+  "fields": {
+    "product": 22,
+    "color": "Yellow",
+    "storage": "512GB",
+    "image": "products/variants/Yellow-Apple-iPhone-14-and-iPhone-14-Plus-1-473x630_WBdMjhn.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 288,
+  "fields": {
+    "product": 21,
+    "color": "Space Black",
+    "storage": "128GB",
+    "image": "products/variants/Restored-Apple-iPhone-14-Pro-Max-256_8dLL8j1.7eb2254059c5f901761dc3d28fb002e8.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 289,
+  "fields": {
+    "product": 21,
+    "color": "Space Black",
+    "storage": "256GB",
+    "image": "products/variants/Restored-Apple-iPhone-14-Pro-Max-256_g6QpobI.7eb2254059c5f901761dc3d28fb002e8.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 290,
+  "fields": {
+    "product": 21,
+    "color": "Space Black",
+    "storage": "512GB",
+    "image": "products/variants/Restored-Apple-iPhone-14-Pro-Max-256_oQ9eGh3.7eb2254059c5f901761dc3d28fb002e8.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 291,
+  "fields": {
+    "product": 21,
+    "color": "Space Black",
+    "storage": "1TB",
+    "image": "products/variants/Restored-Apple-iPhone-14-Pro-Max-256_ExQ6PHN.7eb2254059c5f901761dc3d28fb002e8.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 292,
+  "fields": {
+    "product": 21,
+    "color": "Silver",
+    "storage": "128GB",
+    "image": "products/variants/OIP.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 293,
+  "fields": {
+    "product": 21,
+    "color": "Silver",
+    "storage": "256GB",
+    "image": "products/variants/OIP_ehnZNyh.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 294,
+  "fields": {
+    "product": 21,
+    "color": "Silver",
+    "storage": "512GB",
+    "image": "products/variants/OIP_uNhYHQa.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 295,
+  "fields": {
+    "product": 21,
+    "color": "Silver",
+    "storage": "1TB",
+    "image": "products/variants/OIP_vIhOpMH.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 296,
+  "fields": {
+    "product": 21,
+    "color": "Gold",
+    "storage": "128GB",
+    "image": "products/variants/iphone_14_pro_gold_1__3_2_2.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 297,
+  "fields": {
+    "product": 21,
+    "color": "Gold",
+    "storage": "256GB",
+    "image": "products/variants/iphone_14_pro_gold_1__3_2_2_kr8KlHD.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 298,
+  "fields": {
+    "product": 21,
+    "color": "Gold",
+    "storage": "512GB",
+    "image": "products/variants/iphone_14_pro_gold_1__3_2_2_s31F5pf.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 299,
+  "fields": {
+    "product": 21,
+    "color": "Gold",
+    "storage": "1TB",
+    "image": "products/variants/iphone_14_pro_gold_1__3_2_2_GT2caDU.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 300,
+  "fields": {
+    "product": 21,
+    "color": "Deep Purple",
+    "storage": "128GB",
+    "image": "products/variants/l_10242739.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 301,
+  "fields": {
+    "product": 21,
+    "color": "Deep Purple",
+    "storage": "256GB",
+    "image": "products/variants/l_10242739_OUzZvB4.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 302,
+  "fields": {
+    "product": 21,
+    "color": "Deep Purple",
+    "storage": "512GB",
+    "image": "products/variants/l_10242739_tdp42Kr.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 303,
+  "fields": {
+    "product": 21,
+    "color": "Deep Purple",
+    "storage": "1TB",
+    "image": "products/variants/l_10242739_ZgG6qG8.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 304,
+  "fields": {
+    "product": 20,
+    "color": "Deep Purple ",
+    "storage": "128GB",
+    "image": "products/variants/Deep_purple_14_pm.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 305,
+  "fields": {
+    "product": 20,
+    "color": "Deep Purple ",
+    "storage": "256GB",
+    "image": "products/variants/Deep_purple_14_pm_H862mJn.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 306,
+  "fields": {
+    "product": 20,
+    "color": "Deep Purple ",
+    "storage": "512GB",
+    "image": "products/variants/Deep_purple_14_pm_gbxAWLa.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 307,
+  "fields": {
+    "product": 20,
+    "color": "Deep Purple ",
+    "storage": "1TB",
+    "image": "products/variants/Deep_purple_14_pm_qd0DBW3.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 308,
+  "fields": {
+    "product": 20,
+    "color": "Space black ",
+    "storage": "128GB",
+    "image": "products/variants/14_pro_max_1tb.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 309,
+  "fields": {
+    "product": 20,
+    "color": "Space black ",
+    "storage": "256GB",
+    "image": "products/variants/14_pro_max_1tb_4zbimGS.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 310,
+  "fields": {
+    "product": 20,
+    "color": "Space black ",
+    "storage": "512GB",
+    "image": "products/variants/14_pro_max_1tb_R6BgmH4.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 311,
+  "fields": {
+    "product": 20,
+    "color": "Space black ",
+    "storage": "1TB",
+    "image": "products/variants/14_pro_max_1tb_85VA5Dp.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 312,
+  "fields": {
+    "product": 20,
+    "color": "Silver",
+    "storage": "128GB",
+    "image": "products/variants/51gSGfjg3JL.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 313,
+  "fields": {
+    "product": 20,
+    "color": "Silver",
+    "storage": "256GB",
+    "image": "products/variants/51gSGfjg3JL_5Oz3hnG.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 314,
+  "fields": {
+    "product": 20,
+    "color": "Silver",
+    "storage": "256GB",
+    "image": "products/variants/51gSGfjg3JL_dOc9tWZ.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 315,
+  "fields": {
+    "product": 20,
+    "color": "Silver",
+    "storage": "512GB",
+    "image": "products/variants/51gSGfjg3JL_lTcV66n.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 316,
+  "fields": {
+    "product": 20,
+    "color": "Silver",
+    "storage": "1TB",
+    "image": "products/variants/51gSGfjg3JL_pJz81QD.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 317,
+  "fields": {
+    "product": 20,
+    "color": "Gold",
+    "storage": "128GB",
+    "image": "products/variants/1751089429758-1420gold202.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 318,
+  "fields": {
+    "product": 20,
+    "color": "Gold",
+    "storage": "256GB",
+    "image": "products/variants/1751089429758-1420gold202_GpRN5Qw.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 319,
+  "fields": {
+    "product": 20,
+    "color": "Gold",
+    "storage": "512GB",
+    "image": "products/variants/1751089429758-1420gold202_xHeaUAD.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 320,
+  "fields": {
+    "product": 20,
+    "color": "Gold",
+    "storage": "1TB",
+    "image": "products/variants/1751089429758-1420gold202_NYalcFi.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 321,
+  "fields": {
+    "product": 19,
+    "color": "Black ",
+    "storage": "128GB",
+    "image": "products/variants/231108150042273871.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 322,
+  "fields": {
+    "product": 19,
+    "color": "Black ",
+    "storage": "256GB",
+    "image": "products/variants/231108150042273871_8DRvOGf.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 323,
+  "fields": {
+    "product": 19,
+    "color": "Black ",
+    "storage": "512GB",
+    "image": "products/variants/231108150042273871_wy7O49k.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 324,
+  "fields": {
+    "product": 19,
+    "color": "Blue",
+    "storage": "128GB",
+    "image": "products/variants/iphone-15-plus-blue-128gb_2.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 325,
+  "fields": {
+    "product": 19,
+    "color": "Blue",
+    "storage": "256GB",
+    "image": "products/variants/iphone-15-plus-blue-128gb_2_vPS5Zsq.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 326,
+  "fields": {
+    "product": 19,
+    "color": "Blue",
+    "storage": "512GB",
+    "image": "products/variants/iphone-15-plus-blue-128gb_2_MvaX7IC.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 327,
+  "fields": {
+    "product": 19,
+    "color": "Green",
+    "storage": "128GB",
+    "image": "products/variants/iphone-15-green.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 328,
+  "fields": {
+    "product": 19,
+    "color": "Green",
+    "storage": "256GB",
+    "image": "products/variants/iphone-15-green_HV7C0UE.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 329,
+  "fields": {
+    "product": 19,
+    "color": "Green",
+    "storage": "512GB",
+    "image": "products/variants/iphone-15-green_vL4y3ku.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 330,
+  "fields": {
+    "product": 19,
+    "color": "Yellow",
+    "storage": "128GB",
+    "image": "products/variants/iphone-15-yellow.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 331,
+  "fields": {
+    "product": 19,
+    "color": "Yellow",
+    "storage": "256GB",
+    "image": "products/variants/iphone-15-yellow_b8AXNhe.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 332,
+  "fields": {
+    "product": 19,
+    "color": "Yellow",
+    "storage": "512GB",
+    "image": "products/variants/iphone-15-yellow_4CMC8DG.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 333,
+  "fields": {
+    "product": 19,
+    "color": "Pink",
+    "storage": "128GB",
+    "image": "products/variants/i15p.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 334,
+  "fields": {
+    "product": 19,
+    "color": "Pink",
+    "storage": "256GB",
+    "image": "products/variants/i15p_JfmhHIU.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 335,
+  "fields": {
+    "product": 19,
+    "color": "Pink",
+    "storage": "512GB",
+    "image": "products/variants/i15p_ipUMIAF.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 336,
+  "fields": {
+    "product": 18,
+    "color": "Natural Titanium",
+    "storage": "128GB",
+    "image": "products/variants/iPhone-15-Pro-Max-Natural-Titanium.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 337,
+  "fields": {
+    "product": 18,
+    "color": "Natural Titanium",
+    "storage": "256GB",
+    "image": "products/variants/iPhone-15-Pro-Max-Natural-Titanium_LyR2sH9.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 338,
+  "fields": {
+    "product": 18,
+    "color": "Natural Titanium",
+    "storage": "512GB",
+    "image": "products/variants/iPhone-15-Pro-Max-Natural-Titanium_Z7dJftZ.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 340,
+  "fields": {
+    "product": 18,
+    "color": "Natural Titanium",
+    "storage": "1TB",
+    "image": "products/variants/iPhone-15-Pro-Max-Natural-Titanium_sjKXgn3.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 341,
+  "fields": {
+    "product": 18,
+    "color": "Blue Titanium ",
+    "storage": "128GB",
+    "image": "products/variants/iphone-15-pro-blue-titanium-128gb.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 342,
+  "fields": {
+    "product": 18,
+    "color": "Blue Titanium ",
+    "storage": "256GB",
+    "image": "products/variants/iphone-15-pro-blue-titanium-128gb_GuFSc5D.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 343,
+  "fields": {
+    "product": 18,
+    "color": "Blue Titanium ",
+    "storage": "512GB",
+    "image": "products/variants/iphone-15-pro-blue-titanium-128gb_DI5KjTl.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 344,
+  "fields": {
+    "product": 18,
+    "color": "Blue Titanium ",
+    "storage": "1TB",
+    "image": "products/variants/iphone-15-pro-blue-titanium-128gb_N094yMS.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 345,
+  "fields": {
+    "product": 18,
+    "color": "Black Titanium ",
+    "storage": "128GB",
+    "image": "products/variants/15PROMAX-BLUE-1.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 346,
+  "fields": {
+    "product": 18,
+    "color": "Black Titanium ",
+    "storage": "256GB",
+    "image": "products/variants/15PROMAX-BLUE-1_dHc9s77.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 347,
+  "fields": {
+    "product": 18,
+    "color": "Black Titanium ",
+    "storage": "512GB",
+    "image": "products/variants/15PROMAX-BLUE-1_0oeH5UL.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 348,
+  "fields": {
+    "product": 18,
+    "color": "Black Titanium ",
+    "storage": "1TB",
+    "image": "products/variants/15PROMAX-BLUE-1_rb3UfWD.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 349,
+  "fields": {
+    "product": 18,
+    "color": "White Titanium",
+    "storage": "128GB",
+    "image": "products/variants/241112150012188617.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 350,
+  "fields": {
+    "product": 18,
+    "color": "White Titanium",
+    "storage": "256GB",
+    "image": "products/variants/241112150012188617_Tm98fEy.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 351,
+  "fields": {
+    "product": 18,
+    "color": "White Titanium",
+    "storage": "512GB",
+    "image": "products/variants/241112150012188617_vJVQEEi.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 352,
+  "fields": {
+    "product": 18,
+    "color": "White Titanium",
+    "storage": "1TB",
+    "image": "products/variants/241112150012188617_phhCrIp.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 353,
+  "fields": {
+    "product": 17,
+    "color": "White Titanium",
+    "storage": "256GB",
+    "image": "products/variants/241112150012188617_bViXULa.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 354,
+  "fields": {
+    "product": 17,
+    "color": "White Titanium",
+    "storage": "512GB",
+    "image": "products/variants/241112150012188617_sxeRQ6Y.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 355,
+  "fields": {
+    "product": 17,
+    "color": "White Titanium",
+    "storage": "1TB",
+    "image": "products/variants/241112150012188617_WmYHj8Y.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 356,
+  "fields": {
+    "product": 17,
+    "color": "Black Titanium ",
+    "storage": "256GB",
+    "image": "products/variants/231108150033329361.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 357,
+  "fields": {
+    "product": 17,
+    "color": "Black Titanium ",
+    "storage": "512GB",
+    "image": "products/variants/231108150033329361_uMNlCR9.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 358,
+  "fields": {
+    "product": 17,
+    "color": "Black Titanium ",
+    "storage": "1TB",
+    "image": "products/variants/231108150033329361_CTz78qL.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 362,
+  "fields": {
+    "product": 17,
+    "color": "Natural Titanium",
+    "storage": "256GB",
+    "image": "products/variants/81OdN4WB6VL.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 363,
+  "fields": {
+    "product": 17,
+    "color": "Natural Titanium",
+    "storage": "512GB",
+    "image": "products/variants/81OdN4WB6VL_NdA0fqq.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 364,
+  "fields": {
+    "product": 17,
+    "color": "Natural Titanium",
+    "storage": "1TB",
+    "image": "products/variants/81OdN4WB6VL_yszX7vk.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 365,
+  "fields": {
+    "product": 17,
+    "color": "Blue Titanium ",
+    "storage": "256GB",
+    "image": "products/variants/15PROMAX-BLUE-1_M5Ugfjw.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 366,
+  "fields": {
+    "product": 17,
+    "color": "Blue Titanium ",
+    "storage": "512GB",
+    "image": "products/variants/15PROMAX-BLUE-1_s8Em1tS.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 367,
+  "fields": {
+    "product": 17,
+    "color": "Blue Titanium ",
+    "storage": "1TB",
+    "image": "products/variants/15PROMAX-BLUE-1_TjygPnt.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 368,
+  "fields": {
+    "product": 16,
+    "color": "Ultramarine",
+    "storage": "128GB",
+    "image": "products/variants/e39b8f9ac20a2def1dd61f9f8fa27386dd8eb680.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 369,
+  "fields": {
+    "product": 16,
+    "color": "Ultramarine",
+    "storage": "256GB",
+    "image": "products/variants/e39b8f9ac20a2def1dd61f9f8fa27386dd8eb680_Zp6mSMk.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 370,
+  "fields": {
+    "product": 16,
+    "color": "Ultramarine",
+    "storage": "512GB",
+    "image": "products/variants/e39b8f9ac20a2def1dd61f9f8fa27386dd8eb680_YTddfdD.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 371,
+  "fields": {
+    "product": 16,
+    "color": "Teal",
+    "storage": "128GB",
+    "image": "products/variants/iPhone_16_Teal_PDP_Image_Position_1__en-IN_6aed3712-113a-4579-8a71-41_NSUwqN7.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 372,
+  "fields": {
+    "product": 16,
+    "color": "Teal",
+    "storage": "256GB",
+    "image": "products/variants/iPhone_16_Teal_PDP_Image_Position_1__en-IN_6aed3712-113a-4579-8a71-41_2rfSwCl.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 373,
+  "fields": {
+    "product": 16,
+    "color": "Teal",
+    "storage": "512GB",
+    "image": "products/variants/iPhone_16_Teal_PDP_Image_Position_1__en-IN_6aed3712-113a-4579-8a71-41_npnArgt.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 374,
+  "fields": {
+    "product": 16,
+    "color": "Pink",
+    "storage": "128GB",
+    "image": "products/variants/iphone-16-pink.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 375,
+  "fields": {
+    "product": 16,
+    "color": "Pink",
+    "storage": "256GB",
+    "image": "products/variants/iphone-16-pink_wLW9NOZ.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 376,
+  "fields": {
+    "product": 16,
+    "color": "Pink",
+    "storage": "512GB",
+    "image": "products/variants/iphone-16-pink_Ya1RJfT.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 377,
+  "fields": {
+    "product": 16,
+    "color": "White",
+    "storage": "128GB",
+    "image": "products/variants/iPhone_16_White_PDP_Image_Position_1__en-IN_059f5925-d6d3-4695-8e84-b_6XJIIAc.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 378,
+  "fields": {
+    "product": 16,
+    "color": "White",
+    "storage": "256GB",
+    "image": "products/variants/iPhone_16_White_PDP_Image_Position_1__en-IN_059f5925-d6d3-4695-8e84-b_YlX8aGJ.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 379,
+  "fields": {
+    "product": 16,
+    "color": "White",
+    "storage": "512GB",
+    "image": "products/variants/iPhone_16_White_PDP_Image_Position_1__en-IN_059f5925-d6d3-4695-8e84-b_kkMxl2h.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 380,
+  "fields": {
+    "product": 16,
+    "color": "Black",
+    "storage": "128GB",
+    "image": "products/variants/Apple-iPhone-16-Black.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 381,
+  "fields": {
+    "product": 16,
+    "color": "Black ",
+    "storage": "256GB",
+    "image": "products/variants/Apple-iPhone-16-Black_UjykKaW.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 382,
+  "fields": {
+    "product": 16,
+    "color": "Black ",
+    "storage": "512GB",
+    "image": "products/variants/Apple-iPhone-16-Black_ucQX7V1.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 383,
+  "fields": {
+    "product": 15,
+    "color": "Desert Titanium ",
+    "storage": "256GB",
+    "image": "products/variants/240911100044359923.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 384,
+  "fields": {
+    "product": 15,
+    "color": "Desert Titanium ",
+    "storage": "512GB",
+    "image": "products/variants/240911100044359923_rCXA16k.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 385,
+  "fields": {
+    "product": 15,
+    "color": "Desert Titanium ",
+    "storage": "1TB",
+    "image": "products/variants/240911100044359923_5uHyHOC.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 386,
+  "fields": {
+    "product": 15,
+    "color": "Natural Titanium",
+    "storage": "256GB",
+    "image": "products/variants/iPhone_16_Pro_Max_Natural_Titanium_PDP_Image_Position_1__GBEN_edb7d6a_zqAHjZ4.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 387,
+  "fields": {
+    "product": 15,
+    "color": "Natural Titanium",
+    "storage": "512GB",
+    "image": "products/variants/iPhone_16_Pro_Max_Natural_Titanium_PDP_Image_Position_1__GBEN_edb7d6a_buKxNtP.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 388,
+  "fields": {
+    "product": 15,
+    "color": "Natural Titanium",
+    "storage": "1TB",
+    "image": "products/variants/iPhone_16_Pro_Max_Natural_Titanium_PDP_Image_Position_1__GBEN_edb7d6a_GeXct4Z.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 389,
+  "fields": {
+    "product": 15,
+    "color": "White Titanium",
+    "storage": "256GB",
+    "image": "products/variants/240911100040721473.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 390,
+  "fields": {
+    "product": 15,
+    "color": "White Titanium",
+    "storage": "512GB",
+    "image": "products/variants/240911100040721473_J7XPbo4.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 391,
+  "fields": {
+    "product": 15,
+    "color": "White Titanium",
+    "storage": "1TB",
+    "image": "products/variants/240911100040721473_vyJvArB.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 392,
+  "fields": {
+    "product": 15,
+    "color": "Black Titanium ",
+    "storage": "256GB",
+    "image": "products/variants/240911100031845835.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 393,
+  "fields": {
+    "product": 15,
+    "color": "Black Titanium ",
+    "storage": "512GB",
+    "image": "products/variants/240911100031845835_h6lOKDO.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 394,
+  "fields": {
+    "product": 15,
+    "color": "Black Titanium ",
+    "storage": "1TB",
+    "image": "products/variants/240911100031845835_g3JYXTr.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 395,
+  "fields": {
+    "product": 14,
+    "color": "Desert Titanium ",
+    "storage": "256GB",
+    "image": "products/variants/240911100044359923_HZbLVFF.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 396,
+  "fields": {
+    "product": 14,
+    "color": "Desert Titanium ",
+    "storage": "512GB",
+    "image": "products/variants/240911100044359923_0T01Mfn.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 397,
+  "fields": {
+    "product": 14,
+    "color": "Desert Titanium ",
+    "storage": "1TB",
+    "image": "products/variants/240911100044359923_XgSQmhf.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 398,
+  "fields": {
+    "product": 15,
+    "color": "Desert Titanium ",
+    "storage": "128GB",
+    "image": "products/variants/240911100044359923_6mzpBow.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 399,
+  "fields": {
+    "product": 15,
+    "color": "Natural Titanium",
+    "storage": "128GB",
+    "image": "products/variants/iPhone_16_Pro_Max_Natural_Titanium_PDP_Image_Position_1__GBEN_edb7d6a_6Rn0NM8.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 400,
+  "fields": {
+    "product": 15,
+    "color": "Black Titanium ",
+    "storage": "128GB",
+    "image": "products/variants/240911100031845835_Om9V5aG.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 401,
+  "fields": {
+    "product": 15,
+    "color": "White Titanium",
+    "storage": "128GB",
+    "image": "products/variants/240911100040721473_3RPaqXy.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 402,
+  "fields": {
+    "product": 14,
+    "color": "Natural Titanium",
+    "storage": "256GB",
+    "image": "products/variants/iPhone_16_Pro_Max_Natural_Titanium_PDP_Image_Position_1__GBEN_edb7d6a_75rRXXJ.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 403,
+  "fields": {
+    "product": 14,
+    "color": "Natural Titanium",
+    "storage": "512GB",
+    "image": "products/variants/iPhone_16_Pro_Max_Natural_Titanium_PDP_Image_Position_1__GBEN_edb7d6a_KSLQZgW.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 404,
+  "fields": {
+    "product": 14,
+    "color": "Natural Titanium",
+    "storage": "1TB",
+    "image": "products/variants/iPhone_16_Pro_Max_Natural_Titanium_PDP_Image_Position_1__GBEN_edb7d6a_UBrTqwI.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 405,
+  "fields": {
+    "product": 14,
+    "color": "Black Titanium ",
+    "storage": "256GB",
+    "image": "products/variants/240911100031845835_9eK4vUr.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 406,
+  "fields": {
+    "product": 14,
+    "color": "Black Titanium ",
+    "storage": "512GB",
+    "image": "products/variants/240911100031845835_hGQXRpN.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 407,
+  "fields": {
+    "product": 14,
+    "color": "Black Titanium ",
+    "storage": "1TB",
+    "image": "products/variants/240911100031845835_a86h3I7.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 408,
+  "fields": {
+    "product": 14,
+    "color": "White Titanium",
+    "storage": "256GB",
+    "image": "products/variants/240911100040721473_F0E5vjr.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 409,
+  "fields": {
+    "product": 14,
+    "color": "White Titanium",
+    "storage": "512GB",
+    "image": "products/variants/240911100040721473_l1XgEBI.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 410,
+  "fields": {
+    "product": 14,
+    "color": "White Titanium",
+    "storage": "1TB",
+    "image": "products/variants/240911100040721473_P9TRnlE.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 411,
+  "fields": {
+    "product": 13,
+    "color": "Sky Blue ",
+    "storage": "256GB",
+    "image": "products/variants/IPHONE-AIR-SKY-BLUE.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 412,
+  "fields": {
+    "product": 13,
+    "color": "Sky Blue ",
+    "storage": "512GB",
+    "image": "products/variants/IPHONE-AIR-SKY-BLUE_TxS77Ux.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 413,
+  "fields": {
+    "product": 13,
+    "color": "Sky Blue ",
+    "storage": "1TB",
+    "image": "products/variants/IPHONE-AIR-SKY-BLUE_AcJu3am.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 414,
+  "fields": {
+    "product": 13,
+    "color": "Light Gold",
+    "storage": "256GB",
+    "image": "products/variants/IPHONE-AIR-LIGHT-GOLD.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 415,
+  "fields": {
+    "product": 13,
+    "color": "Light Gold",
+    "storage": "512GB",
+    "image": "products/variants/IPHONE-AIR-LIGHT-GOLD_bPyNdkE.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 416,
+  "fields": {
+    "product": 13,
+    "color": "Light Gold",
+    "storage": "1TB",
+    "image": "products/variants/IPHONE-AIR-LIGHT-GOLD_FvAYmFC.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 417,
+  "fields": {
+    "product": 13,
+    "color": "Cloud White",
+    "storage": "256GB",
+    "image": "products/variants/IPHONE-AIR-CLOUD-WHITE.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 418,
+  "fields": {
+    "product": 13,
+    "color": "Cloud White",
+    "storage": "512GB",
+    "image": "products/variants/IPHONE-AIR-CLOUD-WHITE_6qFnB28.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 419,
+  "fields": {
+    "product": 13,
+    "color": "Cloud White",
+    "storage": "1TB",
+    "image": "products/variants/IPHONE-AIR-CLOUD-WHITE_zHT4Qcz.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 420,
+  "fields": {
+    "product": 13,
+    "color": "Space Black",
+    "storage": "256GB",
+    "image": "products/variants/IPHONE-AIR-SPACE-BLACK.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 421,
+  "fields": {
+    "product": 13,
+    "color": "Space Black",
+    "storage": "512GB",
+    "image": "products/variants/IPHONE-AIR-SPACE-BLACK_qIQbdnj.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 422,
+  "fields": {
+    "product": 13,
+    "color": "Space Black ",
+    "storage": "1TB",
+    "image": "products/variants/IPHONE-AIR-SPACE-BLACK_pROCxei.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 423,
+  "fields": {
+    "product": 12,
+    "color": "Lavender",
+    "storage": "256GB",
+    "image": "products/variants/iPhone_17_Lavender_PDP_Image_Position_1_Lavender_Colour__SG-EN.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 424,
+  "fields": {
+    "product": 12,
+    "color": "Lavender",
+    "storage": "512GB",
+    "image": "products/variants/iPhone_17_Lavender_PDP_Image_Position_1_Lavender_Colour__SG-EN_NS5F9FP.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 425,
+  "fields": {
+    "product": 12,
+    "color": "Lavender",
+    "storage": "1TB",
+    "image": "products/variants/iPhone_17_Lavender_PDP_Image_Position_1_Lavender_Colour__SG-EN_HgojS9m.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 426,
+  "fields": {
+    "product": 12,
+    "color": "Sage",
+    "storage": "256GB",
+    "image": "products/variants/IMG-18066256_m_jpeg_1_ce102bf4-33d2-4270-9047-6ed3abbba9c6_500x.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 427,
+  "fields": {
+    "product": 12,
+    "color": "Sage",
+    "storage": "512GB",
+    "image": "products/variants/IMG-18066256_m_jpeg_1_ce102bf4-33d2-4270-9047-6ed3abbba9c6_500x_zI3uUgp.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 428,
+  "fields": {
+    "product": 12,
+    "color": "Sage",
+    "storage": "1TB",
+    "image": "products/variants/IMG-18066256_m_jpeg_1_ce102bf4-33d2-4270-9047-6ed3abbba9c6_500x_wYgZEmD.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 429,
+  "fields": {
+    "product": 12,
+    "color": "Mist Blue",
+    "storage": "256GB",
+    "image": "products/variants/MG6L4AF_A.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 430,
+  "fields": {
+    "product": 12,
+    "color": "Mist Blue",
+    "storage": "512GB",
+    "image": "products/variants/MG6L4AF_A_e4FabxO.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 431,
+  "fields": {
+    "product": 12,
+    "color": "Mist Blue",
+    "storage": "1TB",
+    "image": "products/variants/MG6L4AF_A_n0zw0Qe.jpg"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 432,
+  "fields": {
+    "product": 12,
+    "color": "White",
+    "storage": "256GB",
+    "image": "products/variants/apple_iphone_17_white_1.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 433,
+  "fields": {
+    "product": 12,
+    "color": "White",
+    "storage": "512GB",
+    "image": "products/variants/apple_iphone_17_white_1_yHniWkE.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 434,
+  "fields": {
+    "product": 12,
+    "color": "White",
+    "storage": "1TB",
+    "image": "products/variants/apple_iphone_17_white_1_ByyiQti.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 435,
+  "fields": {
+    "product": 12,
+    "color": "Black",
+    "storage": "256GB",
+    "image": "products/variants/3_juUAk4DyS.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 436,
+  "fields": {
+    "product": 12,
+    "color": "Black",
+    "storage": "512GB",
+    "image": "products/variants/3_juUAk4DyS_XlazWHf.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 437,
+  "fields": {
+    "product": 12,
+    "color": "Black",
+    "storage": "1TB",
+    "image": "products/variants/3_juUAk4DyS_TVEwt7O.webp"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 438,
+  "fields": {
+    "product": 11,
+    "color": "Cosmic Orange",
+    "storage": "256GB",
+    "image": "products/variants/iPhone-17-Pro-_0000_Cosmic_Orange.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 439,
+  "fields": {
+    "product": 11,
+    "color": "Cosmic Orange",
+    "storage": "512GB",
+    "image": "products/variants/iPhone-17-Pro-_0000_Cosmic_Orange_kOBfVID.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 440,
+  "fields": {
+    "product": 11,
+    "color": "Cosmic Orange",
+    "storage": "1TB",
+    "image": "products/variants/iPhone-17-Pro-_0000_Cosmic_Orange_5GnVB2Q.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 441,
+  "fields": {
+    "product": 11,
+    "color": "Cosmic Orange",
+    "storage": "2TB",
+    "image": "products/variants/iPhone-17-Pro-_0000_Cosmic_Orange_tksdZ0d.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 442,
+  "fields": {
+    "product": 11,
+    "color": "Deep Blue",
+    "storage": "256GB",
+    "image": "products/variants/apple_iphone_17_pro_max_blue_1.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 443,
+  "fields": {
+    "product": 11,
+    "color": "Deep Blue",
+    "storage": "512GB",
+    "image": "products/variants/apple_iphone_17_pro_max_blue_1_YdioIeP.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 444,
+  "fields": {
+    "product": 11,
+    "color": "Deep Blue",
+    "storage": "1TB",
+    "image": "products/variants/apple_iphone_17_pro_max_blue_1_L2zwehW.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 445,
+  "fields": {
+    "product": 11,
+    "color": "Deep Blue",
+    "storage": "2TB",
+    "image": "products/variants/apple_iphone_17_pro_max_blue_1_NXyMzDC.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 446,
+  "fields": {
+    "product": 11,
+    "color": "Silver",
+    "storage": "256GB",
+    "image": "products/variants/apple_iphone_17_pro_max_silver_3.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 447,
+  "fields": {
+    "product": 11,
+    "color": "Silver",
+    "storage": "512GB",
+    "image": "products/variants/apple_iphone_17_pro_max_silver_3_1CVBzhH.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 448,
+  "fields": {
+    "product": 11,
+    "color": "Silver",
+    "storage": "1TB",
+    "image": "products/variants/apple_iphone_17_pro_max_silver_3_GTAkO9p.png"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 449,
+  "fields": {
+    "product": 11,
+    "color": "Silver",
+    "storage": "2TB",
+    "image": "products/variants/apple_iphone_17_pro_max_silver_3_sMRLyuk.png"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 1,
+  "fields": {
+    "status": "pending",
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "notified": true,
+    "user": 1,
+    "total": "0.00",
+    "created_at": "2026-05-20T16:02:30.843Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 2,
+  "fields": {
+    "status": "pending",
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "notified": true,
+    "user": 1,
+    "total": "3400.00",
+    "created_at": "2026-05-20T16:04:59.811Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 3,
+  "fields": {
+    "status": "pending",
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "notified": true,
+    "user": 1,
+    "total": "500.00",
+    "created_at": "2026-05-20T16:05:11.691Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 4,
+  "fields": {
+    "status": "pending",
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "notified": true,
+    "user": 1,
+    "total": "1200.00",
+    "created_at": "2026-05-20T16:14:27.853Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 5,
+  "fields": {
+    "status": "pending",
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "notified": true,
+    "user": 1,
+    "total": "0.00",
+    "created_at": "2026-05-20T16:34:12.249Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 6,
+  "fields": {
+    "status": "pending",
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "notified": true,
+    "user": 2,
+    "total": "1200.00",
+    "created_at": "2026-05-20T17:12:09.367Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 7,
+  "fields": {
+    "status": "pending",
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "notified": true,
+    "user": 1,
+    "total": "600.00",
+    "created_at": "2026-05-21T00:52:07.927Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 8,
+  "fields": {
+    "status": "pending",
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "notified": true,
+    "user": 1,
+    "total": "500.00",
+    "created_at": "2026-05-21T01:42:07.645Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 9,
+  "fields": {
+    "status": "pending",
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "notified": true,
+    "user": 1,
+    "total": "0.00",
+    "created_at": "2026-05-21T01:42:36.335Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 10,
+  "fields": {
+    "status": "pending",
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "notified": true,
+    "user": 1,
+    "total": "500.00",
+    "created_at": "2026-05-22T02:26:11.394Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 11,
+  "fields": {
+    "status": "pending",
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "notified": true,
+    "user": 1,
+    "total": "3000.00",
+    "created_at": "2026-05-25T02:52:31.506Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 12,
+  "fields": {
+    "status": "pending",
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "notified": true,
+    "user": 3,
+    "total": "500.00",
+    "created_at": "2026-05-25T03:10:56.803Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 13,
+  "fields": {
+    "status": "pending",
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "notified": true,
+    "user": 3,
+    "total": "0.00",
+    "created_at": "2026-05-25T07:42:29.813Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 14,
+  "fields": {
+    "status": "pending",
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "notified": true,
+    "user": 3,
+    "total": "500.00",
+    "created_at": "2026-05-25T07:42:36.826Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 15,
+  "fields": {
+    "status": "pending",
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "notified": true,
+    "user": 3,
+    "total": "1200.00",
+    "created_at": "2026-05-25T07:42:54.795Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 16,
+  "fields": {
+    "status": "pending",
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "notified": true,
+    "user": 3,
+    "total": "0.00",
+    "created_at": "2026-05-25T07:43:18.075Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 17,
+  "fields": {
+    "status": "paid",
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "notified": true,
+    "user": 3,
+    "total": "500.00",
+    "created_at": "2026-05-25T08:01:24.042Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 18,
+  "fields": {
+    "status": "paid",
+    "full_name": "",
+    "phone": "",
+    "address": "",
+    "city": "",
+    "notified": true,
+    "user": 3,
+    "total": "1200.00",
+    "created_at": "2026-05-25T08:17:55.521Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 19,
+  "fields": {
+    "status": "paid",
+    "full_name": "unknown user",
+    "phone": "+85599338573",
+    "address": "ßƒÑßƒí",
+    "city": "Phnom Penh",
+    "notified": true,
+    "user": 3,
+    "total": "2500.00",
+    "created_at": "2026-05-25T13:15:51.257Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 20,
+  "fields": {
+    "status": "paid",
+    "full_name": "qe wq",
+    "phone": "1234567",
+    "address": "`132 bggd",
+    "city": "wtrtrwer",
+    "notified": true,
+    "user": 4,
+    "total": "1000.00",
+    "created_at": "2026-05-25T13:16:29.816Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 21,
+  "fields": {
+    "status": "paid",
+    "full_name": "fdfgf ffds",
+    "phone": "dfsdf",
+    "address": "fsdfs",
+    "city": "fdsfs",
+    "notified": true,
+    "user": 4,
+    "total": "500.00",
+    "created_at": "2026-05-25T13:18:04.143Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 22,
+  "fields": {
+    "status": "paid",
+    "full_name": "sal sa",
+    "phone": "+85510364635",
+    "address": "12",
+    "city": "phnom penh",
+    "notified": true,
+    "user": 1,
+    "total": "1000.00",
+    "created_at": "2026-05-27T01:07:35.167Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 23,
+  "fields": {
+    "status": "paid",
+    "full_name": "ewfuhefhfh uewfufeyuwfe",
+    "phone": "ewfhfewhfe",
+    "address": "fjkw",
+    "city": "jhkfhf",
+    "notified": true,
+    "user": 4,
+    "total": "950.00",
+    "created_at": "2026-06-02T12:38:28.339Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 24,
+  "fields": {
+    "status": "paid",
+    "full_name": "sy visal",
+    "phone": "+85510364635",
+    "address": "tk",
+    "city": "",
+    "notified": true,
+    "user": 5,
+    "total": "1100.00",
+    "created_at": "2026-06-03T13:57:21.846Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 25,
+  "fields": {
+    "status": "paid",
+    "full_name": " vit vit",
+    "phone": "0123456478",
+    "address": "tk",
+    "city": "",
+    "notified": true,
+    "user": 6,
+    "total": "900.00",
+    "created_at": "2026-06-03T14:17:55.416Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 26,
+  "fields": {
+    "status": "paid",
+    "full_name": " vit vit",
+    "phone": "0123456478",
+    "address": "tk",
+    "city": "",
+    "notified": true,
+    "user": 4,
+    "total": "700.00",
+    "created_at": "2026-06-03T14:23:41.110Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 27,
+  "fields": {
+    "status": "paid",
+    "full_name": "sy visal",
+    "phone": "+85510364635",
+    "address": "tk",
+    "city": "",
+    "notified": true,
+    "user": 5,
+    "total": "820.00",
+    "created_at": "2026-06-03T14:28:29.453Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 28,
+  "fields": {
+    "status": "paid",
+    "full_name": "sy visal",
+    "phone": "+85510364635",
+    "address": "tk",
+    "city": "",
+    "notified": true,
+    "user": 5,
+    "total": "1100.00",
+    "created_at": "2026-06-03T16:34:35.875Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 29,
+  "fields": {
+    "status": "paid",
+    "full_name": "vit sieng ",
+    "phone": "09765567",
+    "address": "12 dqd wdd",
+    "city": "",
+    "notified": true,
+    "user": 9,
+    "total": "1100.00",
+    "created_at": "2026-06-18T15:26:06.229Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 30,
+  "fields": {
+    "status": "paid",
+    "full_name": "Aegon Targaryen",
+    "phone": "093728173",
+    "address": "Westeros",
+    "city": "",
+    "notified": true,
+    "user": 1,
+    "total": "900.00",
+    "created_at": "2026-06-19T02:03:51.109Z"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 20,
+  "fields": {
+    "order": 23,
+    "product": 17,
+    "variant": null,
+    "qty": 1,
+    "price": "950.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 21,
+  "fields": {
+    "order": 24,
+    "product": 11,
+    "variant": null,
+    "qty": 1,
+    "price": "1100.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 22,
+  "fields": {
+    "order": 25,
+    "product": 13,
+    "variant": null,
+    "qty": 1,
+    "price": "900.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 23,
+  "fields": {
+    "order": 26,
+    "product": 19,
+    "variant": null,
+    "qty": 1,
+    "price": "700.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 24,
+  "fields": {
+    "order": 27,
+    "product": 18,
+    "variant": null,
+    "qty": 1,
+    "price": "820.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 25,
+  "fields": {
+    "order": 28,
+    "product": 11,
+    "variant": null,
+    "qty": 1,
+    "price": "1100.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 26,
+  "fields": {
+    "order": 29,
+    "product": 11,
+    "variant": 444,
+    "qty": 1,
+    "price": "1100.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 27,
+  "fields": {
+    "order": 30,
+    "product": 13,
+    "variant": null,
+    "qty": 1,
+    "price": "900.00"
+  }
+}
+]
