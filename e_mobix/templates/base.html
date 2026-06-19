@@ -372,6 +372,9 @@
                 <div class="vr text-white-50 d-none d-lg-block mx-1" style="height: 24px;"></div>
 
                 {% if user.is_authenticated %}
+                    <a href="{% url 'dashboard_user' %}" class="btn btn-outline-success px-3 rounded-pill">
+                        <ion-icon name="person-outline"></ion-icon> Profile
+                    </a>
                     <div class="d-flex align-items-center gap-2 bg-secondary bg-opacity-25 px-3 py-1.5 rounded-pill border border-secondary border-opacity-50">
                         <span class="text-white-50 small">Welcome,</span>
                         <span class="fw-bold text-info">{{ user.username }}</span>

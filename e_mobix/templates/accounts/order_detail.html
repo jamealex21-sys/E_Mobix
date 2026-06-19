@@ -1,0 +1,204 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container py-5">
+    <!-- Header -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center">
+                <h1>Order #{{ order.id }}</h1>
+                <a href="{% url 'dashboard_user' %}" class="btn btn-outline-secondary">
+                    <ion-icon name="arrow-back"></ion-icon> Back to Dashboard
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order Status -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="text-muted">Order Status</h6>
+                            {% if order.status == 'pending' %}
+                                <span class="badge bg-warning text-dark" style="font-size: 1rem;">Pending</span>
+                            {% elif order.status == 'paid' %}
+                                <span class="badge bg-info" style="font-size: 1rem;">Paid</span>
+                            {% elif order.status == 'shipped' %}
+                                <span class="badge bg-success" style="font-size: 1rem;">Shipped</span>
+                            {% elif order.status == 'cancelled' %}
+                                <span class="badge bg-danger" style="font-size: 1rem;">Cancelled</span>
+                            {% endif %}
+                        </div>
+                        <div class="col-md-6 text-md-end">
+                            <h6 class="text-muted">Order Date</h6>
+                            <p class="fw-bold">{{ order.created_at|date:"F d, Y" }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order Items -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0">Order Items</h5>
+                </div>
+                <div class="card-body p-0">
+                    {% if order.items.all %}
+                        <div class="table-responsive">
+                            <table class="table mb-0">
+                                <thead class="bg-light">
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Variant</th>
+                                        <th>Quantity</th>
+                                        <th>Price</th>
+                                        <th>Subtotal</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for item in order.items.all %}
+                                        <tr>
+                                            <td>
+                                                <strong>{{ item.product.name }}</strong>
+                                            </td>
+                                            <td>
+                                                {% if item.variant %}
+                                                    <span class="badge bg-secondary">{{ item.variant.storage }}</span>
+                                                {% else %}
+                                                    <span class="text-muted">-</span>
+                                                {% endif %}
+                                            </td>
+                                            <td>{{ item.qty }}</td>
+                                            <td>${{ item.price }}</td>
+                                            <td class="text-success fw-bold">${{ item.subtotal }}</td>
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order Summary and Shipping Info -->
+    <div class="row">
+        <!-- Order Summary -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0">Order Summary</h5>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex justify-content-between mb-2">
+                        <span>Subtotal:</span>
+                        <span>${{ order.total }}</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-2">
+                        <span>Shipping:</span>
+                        <span>Free</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-2">
+                        <span>Tax:</span>
+                        <span>$0.00</span>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between" style="font-size: 1.2rem;">
+                        <strong>Total:</strong>
+                        <strong class="text-success">${{ order.total }}</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shipping Information -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0">Delivery Information</h5>
+                </div>
+                <div class="card-body">
+                    {% if order.full_name %}
+                        <div class="mb-3">
+                            <label class="text-muted small">Full Name</label>
+                            <p class="fw-bold">{{ order.full_name }}</p>
+                        </div>
+                    {% endif %}
+                    
+                    {% if order.phone %}
+                        <div class="mb-3">
+                            <label class="text-muted small">Phone Number</label>
+                            <p class="fw-bold">{{ order.phone }}</p>
+                        </div>
+                    {% endif %}
+                    
+                    {% if order.address %}
+                        <div class="mb-3">
+                            <label class="text-muted small">Address</label>
+                            <p class="fw-bold">{{ order.address }}</p>
+                        </div>
+                    {% endif %}
+                    
+                    {% if order.city %}
+                        <div class="mb-3">
+                            <label class="text-muted small">City</label>
+                            <p class="fw-bold">{{ order.city }}</p>
+                        </div>
+                    {% endif %}
+                    
+                    {% if not order.address %}
+                        <div class="alert alert-info" role="alert">
+                            No delivery information provided for this order.
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="row mt-4">
+        <div class="col-12">
+            <div class="d-flex gap-2">
+                <a href="{% url 'dashboard_user' %}" class="btn btn-outline-secondary">
+                    <ion-icon name="arrow-back"></ion-icon> Back to Dashboard
+                </a>
+                <button class="btn btn-outline-primary" onclick="window.print()">
+                    <ion-icon name="print"></ion-icon> Print Order
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        border: none;
+    }
+    
+    .table {
+        margin-bottom: 0;
+    }
+    
+    .table tbody tr:hover {
+        background-color: #f8f9fa;
+    }
+    
+    @media print {
+        .btn, .d-flex.gap-2 {
+            display: none !important;
+        }
+    }
+</style>
+
+{% endblock %}
